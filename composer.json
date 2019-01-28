@@ -1,0 +1,25 @@
+{
+    "name": "polus/adr-json-schema-input",
+    "description": "Helper to create input validation based on json schema",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andreas Sundqvist",
+            "email": "andreas@oak-valley.se"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.2.0",
+        "opis/json-schema": "^1.0",
+        "psr/http-message": "^1.0",
+        "psr/log": "^1.0",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Polus\\JsonSchemaInput\\": "src/"
+        }
+    }
+}
